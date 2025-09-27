@@ -2,10 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "api/app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node api/app.js",
+    "dev": "node api/app.js"
   },
   "keywords": [],
   "author": "",
